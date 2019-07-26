@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Вадим Медяник](https://up.htmlacademy.ru/adaptive/17/user/1076385).
-* Наставник: `Неизвестно`.
+* Наставник: [Алексей Удод](https://htmlacademy.ru/profile/id523387).
 
 ---
 
