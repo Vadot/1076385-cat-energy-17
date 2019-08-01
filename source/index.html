@@ -1,12 +1,164 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Главная</title>
+</head>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo-link">
+      <img class="page-header__logo" src="img/logo-mobile.svg" width="191" height="39" alt="Логотип CatEnergy">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button" aria-label="Вызов меню">
+        Меню
+      </button>
+      <ul class="main-nav__list site-nav">
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="index.html">
+            Главная
+          </a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="catalog.html">
+            Каталог продукции
+          </a>
+        </li>
+        <li class="site-nav__item">
+          <a class="site-nav__link" href="programs.html">
+            Подбор программы
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-main">
+    <h1 class="page-main__title">
+      Функциональное питание для котов
+    </h1>
+    <p class="page-main__subtitle">
+      Занялся собой? Займись котом!
+    </p>
+    <img class="page-main__product-image" src="img/product-image.svg" width="280" height="270" alt="Товар CatEnergy с курицей">
+    <section class="page-main__programs programs">
+      <h2 class="visually-hidden">Выбор программ CatEnergy</h2>
+      <a class="programs__button" href="programs.html">
+        Подобрать программу
+      </a>
+      <div class="programs__item scheme">
+        <h3 class="scheme__title">
+          Похудение
+        </h3>
+        <p class="scheme__text">
+          Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.
+        </p>
+        <a class="scheme__link" href="catalog.html">
+          Каталог Slim
+        </a>
+      </div>
+      <div class="programs__item scheme">
+        <h3 class="scheme__title">
+          Набор массы
+        </h3>
+        <p class="scheme__text">
+         Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!
+        </p>
+        <a class="scheme__link" href="catalog.html" aria-label="">
+          Каталог Slim
+        </a>
+      </div>
+    </section>
+    <div class="page-main__advantages advantages">
+      <ul class="advantages__list">
+        <li class="advantages__item">
+          Функциональное питание содержит только полезные питательные вещества.
+        </li>
+        <li class="advantages__item">
+          Выпускается в виде порошка, который нужно лишь залить кипятком и готово.
+        </li>
+        <li class="advantages__item">
+          Замените один-два приема обычной еды на наше функциональное питание.
+        </li>
+        <li class="advantages__item">
+          Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!
+        </li>
+      </ul>
+    </div>
+    <article class="page-main__example example">
+      <h2 class="example__title">
+        Живой пример
+      </h2>
+      <p class="example__text">
+        Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.
+      </p>
+      <div class="example__result result">
+        <p class="result__value">
+          5 кг
+        </p>
+        <span class="result__sub-value">
+          Снижение веса
+        </span>
+      </div>
+      <div class="example__result result">
+        <p class="result__value">
+          5 кг
+        </p>
+        <span class="result__sub-value">
+          Снижение веса
+        </span>
+      </div>
+      <p class="example__total-cost">
+        Затраты на питание: 15 000 руб.
+      </p>
+      <img class="example__slider-image" src="img/cat.jpg" width="311" height="232" alt="Кот: было/стало">
+      <button class="example__slider-btn" type="button">
+        Было
+      </button>
+      <button class="example__slider-btn" type="button">
+        Стало
+      </button>
+    </article>
+  </main>
+  <footer class="page-footer">
+    <section class="page-footer__address address">
+      <h2 class="visually-hidden">
+       Мы находимся здесь!
+      </h2>
+      <div class="address__text-wrapper">
+        <strong class="address__coop">
+          Приглашаем к сотрудничеству дилеров!
+        </strong>
+        <p class="address__direction">
+          ул. Большая Конюшенная, д. 19/8 Санкт-Петербург
+        </p>
+      </div>
+      <img class="address__map" src="img/map.jpg" width="320" height="400" alt="Карта">
+    </section>
+    <img class="page-footer__logo" src="img/footer-logo.svg" width="128" height="24" alt="CatEnergy">
+    <ul class="page-footer__social-network">
+      <li class="page-footer__social-btn">
+        <a class="page-footer__social-link" href="#" aria-label="Мы вконтакте">
+          <img class="page-footer__social-img" width="22" height="12" src="img/icon-vk.svg" alt="Вконтакте">
+        </a>
+      </li>
+      <li class="page-footer__social-btn">
+        <a class="page-footer__social-link" href="#" aria-label="Мы в инстаграме">
+          <img class="page-footer__social-img" width="10" height="19" src="img/icon-insta.svg" alt="Инстаграм">
+        </a>
+      </li>
+      <li class="page-footer__social-btn">
+        <a class="page-footer__social-link" href="#" aria-label="Мы в фейсбуке">
+          <img class="page-footer__social-img" width="17" height="17" src="img/icon-fb.svg" alt="Фейсбук">
+        </a>
+      </li>
+    </ul>
+    <a class="page-footer__main-link">
+      HTML Academy
+    </a>
+    <a class="page-footer__logo-link">
+      <img src="img/mini-logo.svg" width="27" height="34" alt="Логотип HTML Academy">
+    </a>
+  </footer>
+</body>
 </html>
+
